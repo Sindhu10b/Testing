@@ -2,52 +2,54 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-05T12:17:29 IST" name="Default suite" finished-at="2020-08-05T12:19:26 IST" duration-ms="117146">
+  <suite started-at="2020-08-18T10:41:38 IST" name="Default suite" finished-at="2020-08-18T10:43:44 IST" duration-ms="126447">
     <groups>
     </groups>
-    <test started-at="2020-08-05T12:17:29 IST" name="Default test" finished-at="2020-08-05T12:19:26 IST" duration-ms="117146">
+    <test started-at="2020-08-18T10:41:38 IST" name="Default test" finished-at="2020-08-18T10:43:44 IST" duration-ms="126447">
       <class name="Scripts.TestCardsDraft1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Scripts.TestCardsDraft1@394a2528]" started-at="2020-08-05T12:17:29 IST" name="openBrowser" finished-at="2020-08-05T12:17:56 IST" duration-ms="26635" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Scripts.TestCardsDraft1@2b4bac49]" started-at="2020-08-18T10:41:38 IST" name="openBrowser" finished-at="2020-08-18T10:41:55 IST" duration-ms="17683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="login()[pri:0, instance:Scripts.TestCardsDraft1@394a2528]" started-at="2020-08-05T12:17:56 IST" name="login" finished-at="2020-08-05T12:18:04 IST" duration-ms="8173" status="PASS">
+        <test-method signature="login()[pri:0, instance:Scripts.TestCardsDraft1@2b4bac49]" started-at="2020-08-18T10:41:55 IST" name="login" finished-at="2020-08-18T10:42:03 IST" duration-ms="8079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="draft()[pri:0, instance:Scripts.TestCardsDraft1@394a2528]" started-at="2020-08-05T12:18:04 IST" name="draft" finished-at="2020-08-05T12:18:23 IST" depends-on-methods="Scripts.TestCardsDraft1.login" duration-ms="19538" status="PASS">
+        <test-method signature="draft()[pri:0, instance:Scripts.TestCardsDraft1@2b4bac49]" started-at="2020-08-18T10:42:03 IST" name="draft" finished-at="2020-08-18T10:42:23 IST" depends-on-methods="Scripts.TestCardsDraft1.login" duration-ms="19695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft -->
-        <test-method signature="cards()[pri:0, instance:Scripts.TestCardsDraft1@394a2528]" started-at="2020-08-05T12:18:23 IST" name="cards" finished-at="2020-08-05T12:19:13 IST" depends-on-methods="Scripts.TestCardsDraft1.draft" duration-ms="49519" status="PASS">
+        <test-method signature="cards()[pri:0, instance:Scripts.TestCardsDraft1@2b4bac49]" started-at="2020-08-18T10:42:23 IST" name="cards" finished-at="2020-08-18T10:43:12 IST" depends-on-methods="Scripts.TestCardsDraft1.draft" duration-ms="48817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cards -->
-        <test-method signature="draft1()[pri:0, instance:Scripts.TestCardsDraft1@394a2528]" started-at="2020-08-05T12:19:13 IST" name="draft1" finished-at="2020-08-05T12:19:26 IST" depends-on-methods="Scripts.TestCardsDraft1.cards" duration-ms="13101" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="draft1()[pri:0, instance:Scripts.TestCardsDraft1@2b4bac49]" started-at="2020-08-18T10:43:12 IST" name="draft1" finished-at="2020-08-18T10:43:44 IST" depends-on-methods="Scripts.TestCardsDraft1.cards" duration-ms="31992" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[chrome not reachable
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='Date Of Hire']"}
   (Session info: chrome=84.0.4147.105)
   (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HPS192-PC', ip: '10.50.200.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+System info: host: 'HPS192-PC', ip: '192.168.225.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Sindhu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.105, webStorageEnabled: true}
-Session ID: b3d288cbc32f55589b336476aaf75e47
-*** Element info: {Using=xpath, value=//span[contains(text(),'Add Manually')]}]]>
+Session ID: b0ce6d663b192bb386d8d37105a29692
+*** Element info: {Using=xpath, value=//input[@id='Date Of Hire']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='Date Of Hire']"}
   (Session info: chrome=84.0.4147.105)
   (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HPS192-PC', ip: '10.50.200.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+System info: host: 'HPS192-PC', ip: '192.168.225.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Sindhu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.105, webStorageEnabled: true}
-Session ID: b3d288cbc32f55589b336476aaf75e47
-*** Element info: {Using=xpath, value=//span[contains(text(),'Add Manually')]}
+Session ID: b0ce6d663b192bb386d8d37105a29692
+*** Element info: {Using=xpath, value=//input[@id='Date Of Hire']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -66,13 +68,8 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.getCoordinates(Unknown Source)
-at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:69)
-at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
-at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-at Page.CardsDraft1.drafts(CardsDraft1.java:304)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Page.CardsDraft1.drafts(CardsDraft1.java:337)
 at Scripts.TestCardsDraft1.draft1(TestCardsDraft1.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -104,7 +101,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft1 -->

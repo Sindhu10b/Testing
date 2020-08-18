@@ -9,20 +9,21 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">117,146</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">126,447</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Scripts.TestCardsDraft1</td><td><a href="#m0">draft1</a></td><td rowspan="1">1596610153348</td><td rowspan="1">13101</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Scripts.TestCardsDraft1</td><td><a href="#m1">cards</a></td><td rowspan="1">1596610103828</td><td rowspan="1">49519</td></tr><tr class="passedeven"><td><a href="#m2">draft</a></td><td rowspan="1">1596610084287</td><td rowspan="1">19538</td></tr><tr class="passedeven"><td><a href="#m3">login</a></td><td rowspan="1">1596610076054</td><td rowspan="1">8173</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Scripts.TestCardsDraft1</td><td><a href="#m0">draft1</a></td><td rowspan="1">1597727592471</td><td rowspan="1">31992</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Scripts.TestCardsDraft1</td><td><a href="#m1">cards</a></td><td rowspan="1">1597727543652</td><td rowspan="1">48817</td></tr><tr class="passedeven"><td><a href="#m2">draft</a></td><td rowspan="1">1597727523945</td><td rowspan="1">19695</td></tr><tr class="passedeven"><td><a href="#m3">login</a></td><td rowspan="1">1597727515831</td><td rowspan="1">8079</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Scripts.TestCardsDraft1#draft1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
+<h2>Default test</h2><h3 id="m0">Scripts.TestCardsDraft1#draft1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;Date Of Hire&apos;]&quot;}
   (Session info: chrome=84.0.4147.105)
   (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;HPS192-PC&apos;, ip: &apos;10.50.200.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+System info: host: &apos;HPS192-PC&apos;, ip: &apos;192.168.225.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Sindhu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.105, webStorageEnabled: true}
-Session ID: b3d288cbc32f55589b336476aaf75e47
-*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Add Manually&apos;)]}
+Session ID: b0ce6d663b192bb386d8d37105a29692
+*** Element info: {Using=xpath, value=//input[@id=&apos;Date Of Hire&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -41,13 +42,8 @@ Session ID: b3d288cbc32f55589b336476aaf75e47
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.getCoordinates(Unknown Source)
-	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:69)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:42)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at Page.CardsDraft1.drafts(CardsDraft1.java:304)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at Page.CardsDraft1.drafts(CardsDraft1.java:337)
 	at Scripts.TestCardsDraft1.draft1(TestCardsDraft1.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

@@ -1,9 +1,5 @@
     package Page;
 	import java.awt.AWTException;
-import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

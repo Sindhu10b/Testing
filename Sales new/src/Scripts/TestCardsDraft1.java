@@ -37,9 +37,9 @@ public class TestCardsDraft1 extends Dummy {
         @Test(dependsOnMethods = "login")
 	    public void draft() throws InterruptedException {
 		DraftReg draftpage = new DraftReg(driver);
-		draftpage.draft("Besiv time","besixib792@ofmailer.net", "6576868691", "3603  Williams Lane", "Wichita",
-				"55415", "656789874", "Full-time work", 
-				"Full-time work");
+		draftpage.draft("Universo Realtors","cixarit702@brosj.net", "6576868691", "3603  Williams Lane", "Wichita",
+				"55415", "656789874", "Interior Designer", 
+				"Interior Designer");
 	    	System.out.println("Order created");
 	     }
 		@Test
