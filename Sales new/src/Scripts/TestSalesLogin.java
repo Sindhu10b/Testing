@@ -3,13 +3,13 @@ package Scripts;
 import org.testng.annotations.Test;
 
 import Common.Base;
-import Page.SalesLogin;
+import Page.Sales_Login;
 
 public class TestSalesLogin extends Base{
 	
 	@Test
 	public void saleslogin() throws InterruptedException {
-	SalesLogin salesPage=new SalesLogin(driver);
+	Sales_Login salesPage=new Sales_Login(driver);
 	salesPage.sale("John","12345","5678","koml","Vinod123@","Vinod123@");
 }
 }
