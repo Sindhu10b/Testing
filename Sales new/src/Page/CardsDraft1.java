@@ -199,11 +199,12 @@ public class CardsDraft1 {
 	 @FindBy(xpath="//span[contains(text(),'OK')]")
 	 private WebElement ok1;
 	 
-	 @FindBy(xpath="//input[@name='localTaxBean.taxJurisdiction']")
-	 private WebElement localtest;
-	 
 	 @FindBy(xpath="//input[@name='localTaxBean.overrideAmount']")
 	 private WebElement localover;
+	 
+	 
+	 @FindBy(xpath="//input[@name='localTaxBean.taxJurisdiction']")
+	 private WebElement localtest;
 	 
 	 @FindBy(xpath="//span[contains(text(),'Next')]")
 	 private WebElement next_3;
@@ -387,10 +388,9 @@ public class CardsDraft1 {
    Thread.sleep(500);
    ok.click();
    Thread.sleep(400);
-   localtest.sendKeys(Local_Juri);
-   Thread.sleep(500);
    localover.sendKeys(local_Override);
    Thread.sleep(600);
+   localtest.sendKeys(Local_Juri);
     next_2.click();
     Thread.sleep(2000);
     emp_1.sendKeys(bname);

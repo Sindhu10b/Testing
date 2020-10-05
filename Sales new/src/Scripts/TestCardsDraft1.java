@@ -18,7 +18,7 @@ public class TestCardsDraft1 extends Dummy {
 		"FRONTENAC","34567","567899088",
 		"21","11","60","10","testing","40",  "20","10","12","11","20",
 		"1","2","3","4","10",
-		"1","12","Test local","Local",
+		"1","12","30","Test local",
 		"world bank","34567898765","3455666",
 		"200", "Chicago","Testing", "1001","10001",
 		" PayeeTester","John Payee","134 Mountain lake","900012312");
@@ -37,9 +37,9 @@ public class TestCardsDraft1 extends Dummy {
         @Test(dependsOnMethods = "login")
 	    public void draft() throws InterruptedException {
 		DraftReg draftpage = new DraftReg(driver);
-		draftpage.draft("Universo Realtors","yarah62859@youlynx.com", "6576868691", "3603  Williams Lane", "Wichita",
-				"55415", "656789874", "Bicycle Repairer", 
-				"Bicycle Repairer");
+		draftpage.draft("Judith R Ferrer","pagabiv410@mail7d.com", "6576868691", "3603  Williams Lane", "Wichita",
+				"55415", "656789874", "Forest and Conservation Technician", 
+				"Forest and Conservation Technician");
 	    	System.out.println("Order created");
 	     }
 		@Test
